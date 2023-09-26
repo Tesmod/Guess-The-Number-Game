@@ -47,7 +47,8 @@ function randomNum(max, min) {
 }
   
 function output(text, color) {
-  
+  message.style.color = color
+  message.textContent = text
 }
 
 function gameOver(won, text) {
